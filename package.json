@@ -1,0 +1,24 @@
+{
+  "name": "curricula-mobile",
+  "version": "1.0.0",
+  "description": "Malla curricular Mobile @Laboratoria",
+  "scripts": {
+    "pretest": "mdlint ."
+  },
+  "repository": "Laboratoria/curricula-mobile",
+  "keywords": [
+    "laboratoria",
+    "curricula",
+    "mobile",
+    "android"
+  ],
+  "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/Laboratoria/curricula-mobile/issues"
+  },
+  "devDependencies": {
+    "mdlint": "Laboratoria/mdlint"
+  },
+  "dependencies": {}
+}
