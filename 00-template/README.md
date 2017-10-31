@@ -1,134 +1,88 @@
-# Título del curso
+# Course title
 
-Dos o tres párrafos explicando el curso en líneas generales. Introducción al
-tema central y su importancia para un desarrollador full stack.
+Two or three paragraphs giving an overview of the course (course abstract). An
+introduction to core topics covered in the course, why they are important for a
+mobile developer, how do they fit in the professional context.
 
-Mencionar qué se hará en el curso a nivel de proyecto(s) o producto(s), los
-temas principales, metodología y enfoque de la experiencia.
-
-Requerimientos de la intro:
-
-* Cuál es el tema en un tweet
-* Dónde encaja dentro del mundo profesional y en la historia del software
-* Por qué es relevante aprender esto
-* Abstract del curso
+Mention what students can expect to _work on_ or _biuld_ in terms of project(s)
+and product(s), the methodology and approach to the learning experience.
 
 Tags: `foo`, `bar`, `baz`
 
-## Público objetivo
+## Target audience
 
-Para quién es este curso?
+Who is this course for?
 
-## Requerimientos previos
+## Previous knowledge / requirements
 
-Qué conocimientos previos se necesitan?
+What previous knowledge or skills are required in order to take this course?
 
-## Aprenderás
+## Learning objectives
 
-En esta sección debes listar los objetivos de aprendizaje. Por ejemplo,
-extraído del curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms):
+Every course should list its core learning objectives in it's main `README.md`
+file. For example, here are the learning objectives presented in the
+[Programming Paradigms](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms)
 
-* Qué son los **paradigmas de programación**
-* Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
-* A entender las diferencias y entre el estilo **imperativo vs declarativo**
-* Las diferencias entre **constructores** y **factories**
-* Cómo implementar **herencia prototipal**
-* Los principios básicos de la **programación funcional**
-* A usar **composición** como alternativa la _herencia_
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
+## Product
 
-## Producto
-
-Toda propuesta de curso debe de estar acompañada de un producto o proyecto a
-desarrollar durante el curso, junto con la metodología de trabajo propuesta
-así como entregables y método de evaluación.
+Every course proposal should include a product o project to be developed by
+students during the course, along with the proposed workflow, methodology,
+deliverables and assessment.
 
 ## Syllabus
 
-NOTA: Este es un ejemplo de syllabus que sirve para ilustrar las convenciones de
-vocabulario, estructura de archivos, nombre de carpetas/archivos, ... Cada curso
-es diferente, así que la cantidad de unidades, su tamaño y formato pueden variar
-considerablemente, siempre que se mantenga una misma terminología y formato
-básico. Ante la duda no dudes en preguntar ;-)
+NOTE: This is an example syllabus. It serves the purpose of illustrating the
+conventions used throughout the repository: vocabulary, file structure, file
+naming, ... Each course is different, so the number of _units_, their size,
+scope and format can vary considerably, as long as a basic common terminology
+and format are maintained. If unsure please ask ;-)
 
-### Unidad 01: [Lorem ipsum](01-lorem-ipsum)
+### Unit 01: [Intro to Lorem ipsum](01-lorem-ipsum)
 
-NOTA: Lo que crees que va a llevar a una alumna completar la unidad, que no es
-necesariamente lo mismo que el tiempo estimado pasos a paso (en el contenido
-mismo) ni el tiempo que de hecho le lleve a cada una.
+A paragraph describing what you'll learn, why it is important, and an overview
+of the agenda...
 
-Un párrafo que describa lo que van a aprender y por qué es importante/útil
-aprenderlo.
+### Unit 02: [Implementation workshop 1](02-workshop)
 
-Opcionalmente una tabla con la descripción de las _partes_ que componen la
-_unidad_. Algo como esto:
+ie: In this unit you will be setting up your project's environment, organising
+into teams, devising a plan, and finally dividing and assigning tasks.
 
-| # | Tipo | Formato | Duración | Tópico
-| - | ---- | ------- | -------- | ------
-| 00 | seminario | guiado | 30min | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | self-paced | 15min | [Lectura con videos, snippets, ejemplos, links, ...](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | práctica | self-paced | 15min | [Ejercicios autocorregidos... (pruebas unitarias)](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | self-paced | 15min | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
-| 04 | seminario | guiado | 60min | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
-| 05 | taller | guiado | 60min | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | self-paced | 15min | [Requiz](01-lorem-ipsum/06-requiz.md)
-| 07 | seminario | guiado | 30min | [Cierre](01-lorem-ipsum/07-cierre.md)
-
-### Unidad 02: [Taller de implementación 1 - Proyecto](02-workshop)
-
-En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
-blah blah blah...
-
-### Unidad 03: [Otra unidad](03-another-unit)
+### Unit 03: [Another unit](03-another-unit)
 
 Un párrafo que describa lo que va a ocurrir durante esta unidad... seguido de
 una tabla con la descripción de las _partes_ que componen la _unidad_. Algo como
 esto:
 
-| # | Tipo | Formato | Duración | Tópico
-| - | ---- | ------- | -------- | ------
-| 00 | lectura | self-paced | Xmin | [Apertura](01-lorem-ipsum/00-apertura.md)
-| 01 | lectura | self-paced | Xmin | [Lectura con videos](01-lorem-ipsum/01-self-learning-1.md)
-| 02 | práctica | self-paced | Xmin | [Ejercicios](01-lorem-ipsum/02-self-learning-2.md)
-| 03 | quiz | self-paced | Xmin | [Cuestionario](01-lorem-ipsum/03-some-quiz.md)
-| 04 | seminario | guiado | Xmin | [Ejercicios guiados](01-lorem-ipsum/04-ejercicios-guiados.md)
-| 05 | seminario | guiado | Xmin | [Solucionario](01-lorem-ipsum/05-solucionario.md)
-| 06 | quiz | self-paced | Xmin | [Requiz](01-lorem-ipsum/06-requiz.md)
-| 07 | lectura | self-paced | Xmin | [Cierre](01-lorem-ipsum/07-cierre.md)
+### Unit 04: [Implementation workshop 2](04-workshop)
 
-### Unidad 04: [Taller de implementación 2 - Proyecto](04-workshop)
+A paragraph describing what you'll learn, why it is important, and an overview
+of the agenda...
 
-En esta sesión te dedicarás a hackear 🚧! Junto con una compañera, tendrás que
-blah blah blah...
+### Unit 05: [Demo time](05-demos)
 
-### Unidad 05: [Demos de proyectos](05-demos)
-
-Cada equipo (dos alumnas) tendrá 5 minutos para presentar su demo.
+ie: Each team (two students) will have 5 minutes to present their demo and 5
+minutes to answer questions.
 
 ***
 
-## Evaluación
+## Assessment/grades
 
 [TODO]
 
-## Autor(es) / Colaboradores
+## Author(s) / Contributors
 
-* Tu nombre
-* Otros colaboradores?
+* Your name
+* Other contributors?
 
-## Libros
+## Books
 
-Cada curso debe de estar acompañado de una lista detallada de libros
-relacionados con los temas tratados en el curso.
+Each course should include a list of related books.
 
 ## Benchmarks
 
-Incluir una lista de cursos similares que sirvan como referencia.
+Include a list of similar courses we can use as references.
 
-## Lecturas complementarias
+## Further reading
 
-Incluir una lista de _capítulos de libros_, _blog posts_, _videos_, y otros
-recursos como links a wikipedia, documentación, ...
+Include a list of _book chapters_, _blog posts_, _videos_, and other resources
+like wikipedia links, documentation, ...
