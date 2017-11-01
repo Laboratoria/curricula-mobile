@@ -6,4 +6,10 @@
 
 ***
 
+## Summary
+
 Blah blah blah...
+
+## Let's answer the openening's key questions and concepts
+
+* ...

@@ -1,4 +1,4 @@
-# Setting up
+# Opening
 
 * Tipo: `seminar`
 * Formato: `guided`
@@ -6,4 +6,4 @@
 
 ***
 
-Blah blah blah
+Blah blah blah...

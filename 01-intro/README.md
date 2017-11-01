@@ -31,13 +31,7 @@ deliverables and assessment.
 
 ## Syllabus
 
-NOTE: This is an example syllabus. It serves the purpose of illustrating the
-conventions used throughout the repository: vocabulary, file structure, file
-naming, ... Each course is different, so the number of _units_, their size,
-scope and format can vary considerably, as long as a basic common terminology
-and format are maintained. If unsure please ask ;-)
-
-### Unit 01: [Setting up: Android Studio](01-lorem-ipsum)
+### Unit 01: [Setting up: Android Studio](01-setup)
 
 A paragraph describing what you'll learn, why it is important, and an overview
 of the agenda...
@@ -47,21 +41,23 @@ of the agenda...
 ie: In this unit you will be setting up your project's environment, organising
 into teams, devising a plan, and finally dividing and assigning tasks.
 
-### Unit 03: [Another unit](03-another-unit)
+<!--
+### Unit 03: Another unit
 
 Un párrafo que describa lo que va a ocurrir durante esta unidad... seguido de
 una tabla con la descripción de las _partes_ que componen la _unidad_. Algo como
 esto:
 
-### Unit 04: [Implementation workshop 2](04-workshop)
+### Unit 04: Implementation workshop 2
 
 A paragraph describing what you'll learn, why it is important, and an overview
 of the agenda...
 
-### Unit 05: [Demo time](05-demos)
+### Unit 05: Demo time
 
 ie: Each team (two students) will have 5 minutes to present their demo and 5
 minutes to answer questions.
+-->
 
 ***
 
