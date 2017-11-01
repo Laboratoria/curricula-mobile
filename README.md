@@ -41,13 +41,13 @@ Tags: `maps`, `google-maps`, ...
 
 Tags: `java`, `oop`, `design-patterns`, ...
 
-## II. React Native
+## II. iOS
 
 ### Todo App
 
 Tags: `todo`
 
-## III. iOS
+## III. React Native
 
 ### Todo App
 
