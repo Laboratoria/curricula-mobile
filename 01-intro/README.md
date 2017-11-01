@@ -31,33 +31,47 @@ deliverables and assessment.
 
 ## Syllabus
 
-### Unit 01: [Setting up: Android Studio](01-setup)
+### Unit 01: [Development environment and Java basics](01-basics)
 
 A paragraph describing what you'll learn, why it is important, and an overview
 of the agenda...
 
-### Unit 02: [Implementation workshop 1](02-workshop)
+https://www.udacity.com/course/java-programming-basics--ud282
+
+### Unit 02: [Implementation workshop 1](02-webinar)
 
 ie: In this unit you will be setting up your project's environment, organising
 into teams, devising a plan, and finally dividing and assigning tasks.
 
-<!--
-### Unit 03: Another unit
+### Unit 03: [Building layouts](03-layouts)
 
-Un párrafo que describa lo que va a ocurrir durante esta unidad... seguido de
-una tabla con la descripción de las _partes_ que componen la _unidad_. Algo como
-esto:
+Learn how to place layouts on a page to create images, buttons, and text on a
+phone screen.
 
-### Unit 04: Implementation workshop 2
+### Unit 04: [Implementation workshop 2](04-webinar)
 
 A paragraph describing what you'll learn, why it is important, and an overview
 of the agenda...
 
-### Unit 05: Demo time
+### Unit 05: [Making your app interactive](05-bar)
+
+Learn how to place layouts on a page to create images, buttons, and text on a
+phone screen.
+
+### Unit 06: [Implementation workshop 3](06-webinar)
+
+A paragraph describing what you'll learn, why it is important, and an overview
+of the agenda...
+
+### Unit 07: [???](07-baz)
+
+Learn how to place layouts on a page to create images, buttons, and text on a
+phone screen.
+
+### Unit 08: [Demo time](08-demos)
 
 ie: Each team (two students) will have 5 minutes to present their demo and 5
 minutes to answer questions.
--->
 
 ***
 
@@ -76,7 +90,9 @@ Each course should include a list of related books.
 
 ## Benchmarks
 
-Include a list of similar courses we can use as references.
+* [How to Install Android Studio - Udacity](https://classroom.udacity.com/courses/ud808)
+* [Intro to Java: Functional Programming - Udacity](https://www.udacity.com/course/java-programming-basics--ud282)
+* [Android Basics: User Interface - Udacity](https://www.udacity.com/course/android-basics-user-interface--ud834)
 
 ## Further reading
 
