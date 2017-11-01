@@ -6,6 +6,53 @@ Mobile curriculum @Laboratoria
 
 ![mind map](https://user-images.githubusercontent.com/110297/32234430-bf5c35b4-be2a-11e7-908c-68930c79830e.png)
 
+## The _courses_
+
+Courses are divided into 3 sub-tracks:
+
+* **Android**
+* **iOS**
+* **React Native**
+
+***
+
+## I. Android
+
+### Building a catalog app for Android
+
+Tags: `android-studio`, `xml`, `java`, `ui-concepts`, `views`, `layouts`,
+`resources`, `touch-events`
+
+### Building a calculator with Android and Material UI
+
+Tags: `android`, `java`, `oop`, `user-input`, `ui-styles`, `material`,
+`activities`, `intent`
+
+### Building a photo sharing app with Android and Firebase
+
+Tags: `camera`, `gallery`, `upload`, `firebase`, `http`, `url`, `json`,
+`offline`
+
+### Building an app using maps?
+
+Tags: `maps`, `google-maps`, ...
+
+### Java OOP?
+
+Tags: `java`, `oop`, `design-patterns`, ...
+
+## II. iOS
+
+### Todo App
+
+Tags: `todo`
+
+## III. React Native
+
+### Todo App
+
+Tags: `todo`
+
 ***
 
 ## Contributions
