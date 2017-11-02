@@ -1,6 +1,6 @@
 # curricula-mobile
 
-Mobile curriculum @Laboratoria
+Mobile curriculum @Laboratoria. In this course, you will learn to develop apps for mobile.
 
 ## Mapa de conceptos, tecnologías y herramientas
 
@@ -18,12 +18,25 @@ Courses are divided into 3 sub-tracks:
 
 ## I. Android
 
+This module teaches the basics of Android development and will help you build
+simple Android apps. It covers the basics of Java programming, a big picture of
+Android, and concepts such as Activities, Intents, etc.
+
+As part of the course, you will build simple apps tht demonstrate the basic concepts,
+intended to give you a working knowledge of the course material.
+
 ### Building a catalog app for Android
+
+In this project, you will build an app uses user-interface concepts of Android such as
+layouts and views. You will learn to design and configure the UI via XML spec using the Android Studio editor.
 
 Tags: `android-studio`, `xml`, `java`, `ui-concepts`, `views`, `layouts`,
 `resources`, `touch-events`
 
 ### Building a calculator with Android and Material UI
+
+In this project, you will learn additional UI concepts such as material UI design to build
+an app with delightful user-interfaces. You will also learn basic user-input.
 
 Tags: `android`, `java`, `oop`, `user-input`, `ui-styles`, `material`,
 `activities`, `intent`
