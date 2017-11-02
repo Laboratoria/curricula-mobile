@@ -5,6 +5,8 @@
 * Duración: `10min`
 
 ***
+## What is Android
+Please read [android-intro](https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-concepts/content/en/Unit%201/10_c_intro_to_android.html) to learn more.
 
 ## Why should I learn this?
 
