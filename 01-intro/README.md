@@ -1,100 +1,148 @@
 # Your first Android app
 
-Two or three paragraphs giving an overview of the course (course abstract). An
-introduction to core topics covered in the course, why they are important for a
-mobile developer, how do they fit in the professional context.
+[ :construction: Work in progress. Suggestions welcome. :construction: ]
 
-Mention what students can expect to _work on_ or _biuld_ in terms of project(s)
-and product(s), the methodology and approach to the learning experience.
+This course is intended to be a _first experience_ in Android app development.
 
-Tags: `foo`, `bar`, `baz`
+> Android provides a rich application framework that allows you to build
+> innovative apps and games for mobile devices in a Java language environment
+>
+> Source: [Android developers site](https://developer.android.com/guide/index.html)
+
+Android is hugely popular and in high demand. Browsing a few job placement
+platforms we find that **Android Native** tags appear twice as often compared to
+all non-native mobile technologies combined.
+
+In this course you will be presented with the challenge of building a working
+prototype for an Android app. A fictional (or even real) company wants to
+prototype an idea for a new app, and you are given the task of learning some
+Android basics and putting together a prototype they can use in a presentation
+they will be giving at an upcoming conference.
+
+This course heavily relies on amazing [free resources](#further-reading) that we
+strongly recommend checking out if you are interested in Android development.
+
+Tags: `android`, `android-studio`, `xml`, `java`, `ui-concepts`, `views`,
+`layouts`, `resources`, `touch-events`
 
 ## Target audience
 
-Who is this course for?
+This course is aimed at our bootcamp graduates.
+
+The course is being designed so that it can be run as part of our Continuous
+Education program (4 weeks - 4 seminars and 4 webinars in 4 weeks).
 
 ## Previous knowledge / requirements
 
-What previous knowledge or skills are required in order to take this course?
+You are expected to be familiar with web development (`HTML`/`XML` and at least
+one programming language - ie: `JavaScript`) although no specific previous
+knowledge of Android or Java are required.
 
 ## Learning objectives
 
-Every course should list its core learning objectives in it's main `README.md`
-file. For example, here are the learning objectives presented in the
-[Programming Paradigms](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms)
+* Familiarise with Android dev tools
+* Android App Fundamentals
+* First experience designing/building an Android app
+* Planning
+* Continuous enhancement
 
 ## Product
 
-Every course proposal should include a product o project to be developed by
-students during the course, along with the proposed workflow, methodology,
-deliverables and assessment.
+Students will be given some graphics (a logo, font, colour scheme) along with a
+project brief. The brief should include specifications for 2-3 _screens_
+(activities) and students are expected to create a _mockup_ Android app (the app
+doesn't need to be a fully fledged app) so that it can be installed and run on
+Android devices. Alternatively you can pick an existing app and try to replicate
+2-3 different _screens_.
+
+Students will work in pairs, documenting their planning and progress on GitHub.
+
+By the end of the course you should have produced a _working_ prototype that can
+be installed and run on an Android device. It is very important that the
+prototype _works_. This means that we expect you to pay special attention to
+building in blocks thats allow you to have something ready to publish even if
+you need to leave some features out (that can be added later).
+
+The course will close with a demo day were each team will present their work and
+share the learning experience with the rest of the group (and maybe guests as
+well?).
 
 ## Syllabus
 
-### Unit 01: [Development environment and Java basics](01-basics)
+### Unit 01: [Development environment](01-ide) (1h)
 
-A paragraph describing what you'll learn, why it is important, and an overview
-of the agenda...
+To get started, you will need to install Android Studio. In this unit we will
+familiarise with the development environment, the emulator, connecting to your
+device, ...
 
-https://www.udacity.com/course/java-programming-basics--ud282
+### Unit 02: [UI: Single activity](02-ui-single-activity) (2h)
 
-### Unit 02: [Implementation workshop 1](02-webinar)
+After familiarising with the dev environment and tools, we'll start building our
+user interface (UI). We'll start by adding a single _screen_ (an _activity_ in
+Android parlance).
 
-ie: In this unit you will be setting up your project's environment, organising
-into teams, devising a plan, and finally dividing and assigning tasks.
+### Unit 03: [Building layouts](03-views-and-layouts) (1h)
 
-### Unit 03: [Building layouts](03-layouts)
+...
 
-Learn how to place layouts on a page to create images, buttons, and text on a
-phone screen.
+### Unit 03: [Handling Events](03-events) (3h)
 
-### Unit 04: [Implementation workshop 2](04-webinar)
+...
 
-A paragraph describing what you'll learn, why it is important, and an overview
-of the agenda...
+### Unit 04: [IDs, listeners and Java basics](04-ids-listeners-and-java-basics) (1h)
 
-### Unit 05: [Making your app interactive](05-bar)
+...
 
-Learn how to place layouts on a page to create images, buttons, and text on a
-phone screen.
+### Unit 05: [Navigation](05-navigation) (3h)
 
-### Unit 06: [Implementation workshop 3](06-webinar)
+Multi activity
 
-A paragraph describing what you'll learn, why it is important, and an overview
-of the agenda...
+### Unit 06: [Activities (call and intent)](06-activities) (1h)
 
-### Unit 07: [???](07-baz)
+...
 
-Learn how to place layouts on a page to create images, buttons, and text on a
-phone screen.
+### Unit 07: [Deployment](07-deployment) (3h)
 
-### Unit 08: [Demo time](08-demos)
+...
 
-ie: Each team (two students) will have 5 minutes to present their demo and 5
-minutes to answer questions.
+### Unit 08: [Demo time](08-demos) (2h)
+
+Each students will have 4 minutes to present their demo and 4 minutes to answer
+questions from the audience.
 
 ***
 
-## Assessment/grades
+## Agenda
 
-[TODO]
+### Week 1
+#### Seminar
+#### Webinar
+### Week 2
+#### Seminar
+#### Webinar
+### Week 3
+#### Seminar
+#### Webinar
+### Week 4
+#### Seminar
+#### Demo day
+
+***
+
+## Deliverables and assessment
+
+Each student is expected to propose an idea for their project, build their
+own Android app, deploy it and demo it to the rest of the group.
 
 ## Author(s) / Contributors
 
-* Your name
-* Other contributors?
-
-## Books
-
-Each course should include a list of related books.
-
-## Benchmarks
-
-* [How to Install Android Studio - Udacity](https://classroom.udacity.com/courses/ud808)
-* [Intro to Java: Functional Programming - Udacity](https://www.udacity.com/course/java-programming-basics--ud282)
-* [Android Basics: User Interface - Udacity](https://www.udacity.com/course/android-basics-user-interface--ud834)
+* [@maheshrc](https://github.com/maheshrc)
+* [@ivandevp](https://github.com/ivandevp)
+* [@lupomontero](https://github.com/lupomontero)
 
 ## Further reading
 
-Include a list of _book chapters_, _blog posts_, _videos_, and other resources
-like wikipedia links, documentation, ...
+* [Android official docs](https://developer.android.com/guide/index.html)
+* [How to Install Android Studio - Udacity](https://classroom.udacity.com/courses/ud808)
+* [Intro to Java: Functional Programming - Udacity](https://www.udacity.com/course/java-programming-basics--ud282)
+* [Android Basics: User Interface - Udacity](https://www.udacity.com/course/android-basics-user-interface--ud834)
