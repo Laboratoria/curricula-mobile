@@ -1,4 +1,4 @@
-# Your first Android app
+# Android 101
 
 [ :construction: Work in progress. Suggestions welcome. :construction: ]
 
@@ -69,39 +69,39 @@ well?).
 
 ## Syllabus
 
-### Unit 01: [Development environment](01-ide) (1h)
+### Unit 01: [Development environment](01-ide)
 
 To get started, you will need to install Android Studio. In this unit we will
 familiarise with the development environment, the emulator, connecting to your
 device, ...
 
-### Unit 02: [UI: Single activity](02-ui-single-activity) (1h)
+### Unit 02: [UI: Single activity](02-ui-single-activity)
 
 After familiarising with the dev environment and tools, we'll start building our
 user interface (UI). We'll start by adding a single _screen_ (an _activity_ in
 Android parlance).
 
-### Unit 03: [Building layouts](03-views-and-layouts) (1h)
+### Unit 03: [Building layouts](03-views-and-layouts)
 
 ...
 
-### Unit 04: [Handling Events](04-events) (1h)
+### Unit 04: [Handling Events](04-events)
 
 ...
 
-### Unit 05: [IDs, listeners and Java basics](05-ids-listeners-and-java-basics) (1h)
+### Unit 05: [IDs, listeners and Java basics](05-ids-listeners-and-java-basics)
 
 ...
 
-### Unit 06: [Navigation](06-navigation) (1h)
+### Unit 06: [Navigation](06-navigation)
 
 Multi activity
 
-### Unit 07: [Activities (call and intent)](07-activities) (1h)
+### Unit 07: [Activities (call and intent)](07-activities)
 
 ...
 
-### Unit 08: [Deployment](08-deployment) (1h)
+### Unit 08: [Deployment](08-deployment)
 
 ...
 

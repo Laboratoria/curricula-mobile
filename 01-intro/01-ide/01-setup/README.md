@@ -2,7 +2,7 @@
 
 * Tipo: `seminar`
 * Formato: `guided`
-* Duración: `10min`
+* Duración: `60min`
 
 ***
 
