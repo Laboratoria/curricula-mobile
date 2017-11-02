@@ -75,7 +75,7 @@ To get started, you will need to install Android Studio. In this unit we will
 familiarise with the development environment, the emulator, connecting to your
 device, ...
 
-### Unit 02: [UI: Single activity](02-ui-single-activity) (2h)
+### Unit 02: [UI: Single activity](02-ui-single-activity) (1h)
 
 After familiarising with the dev environment and tools, we'll start building our
 user interface (UI). We'll start by adding a single _screen_ (an _activity_ in
@@ -85,47 +85,84 @@ Android parlance).
 
 ...
 
-### Unit 03: [Handling Events](03-events) (3h)
+### Unit 04: [Handling Events](04-events) (1h)
 
 ...
 
-### Unit 04: [IDs, listeners and Java basics](04-ids-listeners-and-java-basics) (1h)
+### Unit 05: [IDs, listeners and Java basics](05-ids-listeners-and-java-basics) (1h)
 
 ...
 
-### Unit 05: [Navigation](05-navigation) (3h)
+### Unit 06: [Navigation](06-navigation) (1h)
 
 Multi activity
 
-### Unit 06: [Activities (call and intent)](06-activities) (1h)
+### Unit 07: [Activities (call and intent)](07-activities) (1h)
 
 ...
 
-### Unit 07: [Deployment](07-deployment) (3h)
+### Unit 08: [Deployment](08-deployment) (1h)
 
 ...
-
-### Unit 08: [Demo time](08-demos) (2h)
-
-Each students will have 4 minutes to present their demo and 4 minutes to answer
-questions from the audience.
 
 ***
 
 ## Agenda
 
 ### Week 1
-#### Seminar
-#### Webinar
+
+#### Seminar + Workshop (3h)
+
+* Kick-off
+* Welcome / instructors and students introduce themeselves
+* Choosing a challenge/team
+* Introduction to Android
+* Workshop (dev environment, first activity)
+
+#### Webinar (1.5h)
+
+* Building layouts (guided exercise)
+* QA
+
 ### Week 2
-#### Seminar
-#### Webinar
+
+#### Workshop (3h)
+
+* Hacking (adding interaction, navigation, events, ...)
+* Code review
+* Progress report
+
+#### Webinar (1.5h)
+
+* Java basics
+* QA
+
 ### Week 3
-#### Seminar
-#### Webinar
+
+#### Workshop (3h)
+
+* Hacking (adding interaction, navigation, events, ...)
+* Code review
+* Progress report
+
+#### Webinar (1.5h)
+
+* Activities (guided exercise)
+* QA
+
 ### Week 4
-#### Seminar
-#### Demo day
+
+#### Workshop (3h)
+
+* Hacking (adding interaction, navigation, events, ...)
+* Code review
+* Progress report
+
+#### Demo day (2h)
+
+* Each students will have 4 minutes to present their demo and 4 minutes to
+  answer questions from the audience.
+* Retrospective
 
 ***
 
