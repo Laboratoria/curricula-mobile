@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fast.commerce.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:paddingEnd="5dp"
+        android:paddingTop="5dp"
+        android:paddingStart="5dp" />
+</com.fast.commerce.SquareLayout>

@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.fast.commerce"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile('com.twitter.sdk.android:twitter:1.4.0@aar') {
+        transitive = true;
+    }
+    // Glide
+    //    compile 'javax.annotation:jsr250-api:1.0'
+    //    provided 'org.glassfish:javax.annotation:10.0-b28'
+
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
+    compile 'com.android.support:cardview-v7:25.0.1'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.braintreepayments.api:drop-in:3.0.0'
+    compile 'com.braintreepayments.gateway:braintree-java:2.69.0'
+    compile 'com.google.api-client:google-api-client:1.23.0'
+    compile 'com.google.http-client:google-http-client-android:1.23.0'
+    // GMS wallet
+    compile 'com.google.android.gms:play-services-wallet:7.5.0'
+    compile 'com.android.support:support-v4:25.0.1'
+    testCompile 'junit:junit:4.12'
+    compile project(path: ':backend', configuration: 'android-endpoints')
+}

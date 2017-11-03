@@ -1,0 +1,50 @@
+// If you would like more information on the gradle-appengine-plugin please refer to the github page
+// https://github.com/GoogleCloudPlatform/gradle-appengine-plugin
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.google.appengine:gradle-appengine-plugin:1.9.34'
+    }
+}
+
+repositories {
+    jcenter();
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'appengine'
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
+dependencies {
+    appengineSdk 'com.google.appengine:appengine-java-sdk:1.9.34'
+    compile 'com.google.appengine:appengine-endpoints:1.9.34'
+    compile 'com.google.appengine:appengine-endpoints-deps:1.9.34'
+    compile 'javax.servlet:servlet-api:2.5'
+    compile 'com.googlecode.objectify:objectify:5.1.5'
+    compile 'com.google.guava:guava:18.0'
+    compile 'commons-beanutils:commons-beanutils:1.9.2'
+    compile 'com.google.http-client:google-http-client:1.20.0'
+    compile 'com.google.http-client:google-http-client-jackson:1.20.0'
+    compile 'com.google.http-client:google-http-client-jackson2:1.20.0'
+    //compile 'org.json:json:20141113'
+    // https://mvnrepository.com/artifact/com.braintreepayments.gateway/braintree-java
+    compile 'com.braintreepayments.gateway:braintree-java:2.69.0'
+}
+
+appengine {
+    downloadSdk = true
+    appcfg {
+        oauth2 = true
+    }
+    endpoints {
+        getClientLibsOnBuild = true
+        getDiscoveryDocsOnBuild = true
+        googleClientVersion = '1.23.0'
+    }
+}
